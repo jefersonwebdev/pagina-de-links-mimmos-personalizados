@@ -1,9 +1,15 @@
+<?php
+/*
+Template Name: Página de Links Customizada
+*/
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mimmos Personalizados | Links Oficiais</title>
+    <?php wp_head(); // Aqui o Rank Math e Site Kit entram ?>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="shortcut icon" href="https://mimmospersonalizados.com.br/wp-content/uploads/2024/12/cropped-mimos-personalizados-logo-1.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&family=Pacifico&display=swap" rel="stylesheet">
@@ -195,5 +201,6 @@
             });
         });
     </script>
+    <?php wp_footer(); // Aqui entram scripts de rastreamento extras ?>
 </body>
 </html>
